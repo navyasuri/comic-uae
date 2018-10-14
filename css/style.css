@@ -2,6 +2,9 @@
     text-align: center;
 }
 
+html, body{
+    font-family: 'Indie Flower', cursive;
+}
 
 body {
     background-color: #8EC5FC;
@@ -30,4 +33,34 @@ body {
 
 .carousel{
     margin: 10px auto;
+}
+
+.right-corner {
+    position: absolute;
+    text-align: right;
+    margin left: 20px;
+    font-size: 20px;
+    right: 10px;
+    top: 0px;
+}
+.right-corner h2, .left-corner h2{
+    margin: 20px;
+}
+
+.left-corner {
+    position: absolute;
+    text-align: right;
+    margin left: 20px;
+    font-size: 20px;
+    left: 10px;
+    top: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
 }
