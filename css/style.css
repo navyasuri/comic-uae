@@ -1,0 +1,33 @@
+.main-slider {
+    text-align: center;
+}
+
+
+body {
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.slider {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.carousel-nav {
+
+}
+
+.carousel{
+    margin: 10px auto;
+}

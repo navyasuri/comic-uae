@@ -1,0 +1,69 @@
+.center {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.section {
+    background: rgb(148,142,255);
+background: linear-gradient(90deg, rgba(148,142,255,1) 0%, rgba(195,215,246,1) 45%, rgba(124,217,240,1) 100%);
+    display: table;
+    width: 100%;
+    text-align: center;
+/*    padding: 5%;*/
+    box-sizing: border-box;
+}
+nav {
+    display: block;
+}
+
+html, body{
+    font-family: 'Indie Flower', cursive;
+}
+.right-corner {
+    position: absolute;
+    text-align: right;
+    margin left: 20px;
+    font-size: 20px;
+    right: 10px;
+    top: 0px;
+}
+.right-corner h2, .left-corner h2{
+    margin: 20px;
+}
+
+.center h2 {
+ padding: 2px;
+    margin: -10px;
+    font-size: 40px;
+}
+.center h1 {
+   margin: 0px;
+    padding: 0px;
+    font-size: 80px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+h3 {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 35px;
+}
+
+.left-corner {
+    position: absolute;
+    text-align: right;
+    margin left: 20px;
+    font-size: 20px;
+    left: 10px;
+    top: 0px;
+}
