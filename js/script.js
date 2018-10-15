@@ -1,4 +1,7 @@
 $(document).ready(function(){
+    
+    // we use slickjs to create sliders. the source file is included. originally by Ken Wheeler.
+    // Create the main slider with this function - link it to the other slider so they sync nicely
     $('.carousel').slick({
         arrows: true,
         dots:true,
@@ -9,6 +12,8 @@ $(document).ready(function(){
         slidesToScroll:1,
         asNavFor:'.carousel-nav'
     });
+    
+    // Create the bottom slider that is used to naviagte the main slider - link and sync too
     $('.carousel-nav').slick({
         centerMode: true,
         centerPadding: '50px',
