@@ -64,3 +64,8 @@ a:link, a:visited{
     text-decoration: none;
     color: black;
 }
+
+.nav-holder {
+    width: 50%;
+    margin: auto;
+}

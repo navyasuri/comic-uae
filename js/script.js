@@ -4,17 +4,18 @@ $(document).ready(function(){
         dots:false,
         speed:1000,
         fade:true,
-        infinite:false,
+        infinite:true,
         slidesToShow:1,
         slidesToScroll:1,
         asNavFor:'.carousel-nav'
     });
     $('.carousel-nav').slick({
-        slidesToShow:6,
+        slidesToShow:4,
         slidesToScroll:1,
         dots:true,
         centerMode:true,
         focusOnSelect:true,
-        arrows:false
+        arrows:false,
+        asNavFor: '.carousel'
     });
 });
