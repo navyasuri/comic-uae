@@ -10,7 +10,15 @@ html, body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faf3aa', endColorstr='#cfcbd6', GradientType=1 );
 }
 
+/*The main section of the page*/
+.section {
+    display: table;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
 
+/*The center section of the page*/
 .center {
     text-align: center;
     display: table-cell;
@@ -18,17 +26,7 @@ html, body {
     padding-left: 65px;
 }
 
-.section {
-    display: table;
-    width: 100%;
-    text-align: center;
-/*    padding: 5%;*/
-    box-sizing: border-box;
-}
-nav {
-    display: block;
-}
-
+/*The title of the Main and the About page*/
 .center h1 {
     margin: 0px;
     padding: 0px;
@@ -36,6 +34,15 @@ nav {
     margin-top: 2%;
 }
 
+/*The text in the About page*/
+h3 {
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 5%;
+    font-size: 35px;
+}
+
+/*Dont have underline for links*/
 a {
     text-decoration: none;
 }
@@ -45,43 +52,39 @@ a:link, a:visited{
     color: black;
 }
 
-h3 {
-    margin-left: 18%;
-    margin-right: 18%;
-    margin-top: 5%;
-    font-size: 35px;
-}
-
-
+/*The home button*/
 .left-corner {
     float: left;
     margin-left: 35px;
     margin-top: 18px;
 }
 
-
+/*The buttons in the right corner*/
 .right-corner {
     float: right;
     margin-top: 20px;
     margin-right: 35px;
 }
 
-
+/*Property for all buttons*/
 button {
-    background-color: rgb(237, 212, 194);
+    background-color: rgb(237, 212, 194, 0.5);
     border-radius: 20px;
-    -webkit-transition-duration: 0.4s; /* Safari */
+    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
+    cursor: pointer;
 }
 
+/*The center button on the Main page*/
 #the-button {
     margin: 5px auto;
     font-size: 2.5em;
     padding: 5px 26px;
+    border: 2px solid black;
 }
 
-
-#the-button2 {
+/*The button to the Comic*/
+#the-button-comic {
     white-space: nowrap;
     text-align: center;
     font-size: 20px;
@@ -90,23 +93,18 @@ button {
 
 }
 
+/*The button to the About page*/
 #the-button-about {
     font-size: 20px;
     border-color: black;
     padding: 9px 15px;
 }
 
-#the-button:hover, #the-button2:hover, #the-button-about:hover {
+/*Change background color when hovering over the buttons and make the text white*/
+#the-button:hover, #the-button-comic:hover, #the-button-about:hover {
     background-color: rgb(232, 156, 102); 
     color: white;
 }
-
-
-
-
-
-
-
 
 
 
