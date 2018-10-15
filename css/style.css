@@ -1,7 +1,3 @@
-.main-slider {
-    text-align: center;
-}
-
 
 html, body {
     background: rgba(250,243,170,1);
@@ -12,9 +8,12 @@ html, body {
     background: -ms-linear-gradient(left, rgba(250,243,170,1) 0%, rgba(255,208,158,1) 31%, rgba(247,184,116,1) 68%, rgba(207,203,214,1) 100%);
     background: linear-gradient(to right, rgba(250,243,170,1) 0%, rgba(255,208,158,1) 31%, rgba(247,184,116,1) 68%, rgba(207,203,214,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faf3aa', endColorstr='#cfcbd6', GradientType=1 );
-
     margin: 0;
     padding: 0;
+}
+
+.main-slider {
+    text-align: center;
 }
 
 * {
@@ -38,6 +37,12 @@ html, body {
     margin: 10px auto;
 }
 
+.nav-holder {
+    width: 50%;
+    margin: auto;
+}
+
+/*Dont have underline for links*/
 a {
     text-decoration: none;
 }
@@ -47,39 +52,34 @@ a:link, a:visited{
     color: black;
 }
 
+/*The home button*/
 .left-corner {
     float: left;
     margin-left: 35px;
     margin-top: 8px;
 }
 
-
+/*The About button*/
 .right-corner {
     float: right;
     margin-top: 23px;
     margin-right: 35px;
 }
 
-
-button {
-    background-color: rgb(237, 212, 194);
+/*Property for the About button*/
+#the-button-about {
+    background-color: rgb(237, 212, 194, 0.5);
     border-radius: 20px;
     -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
-}
-
-.nav-holder {
-    width: 50%;
-    margin: auto;
-}
-
-#the-button-about {
     font-size: 20px;
     border-color: black;
     padding: 9px 15px;
+    cursor: pointer;
 }
 
-#the-button:hover, #the-button2:hover, #the-button-about:hover {
+/*Change background color when hovering over the About button and make the text white*/
+#the-button-about:hover {
     background-color: rgb(232, 156, 102); 
     color: white;
 }
