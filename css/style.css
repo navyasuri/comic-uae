@@ -30,8 +30,8 @@ html, body {
     width: 100%;
 }
 
-.carousel-nav {
-
+.carousel-nav img{
+    opacity: 0.6;
 }
 
 .carousel{
@@ -82,4 +82,12 @@ button {
 #the-button:hover, #the-button2:hover, #the-button-about:hover {
     background-color: rgb(232, 156, 102); 
     color: white;
+}
+
+.caret-num{
+    font-size: 50px;
+    font-family: 'Permanent Marker', cursive;
+    color: BLACK;
+    transform: translateY(-120px);
+    
 }

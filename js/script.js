@@ -1,21 +1,22 @@
 $(document).ready(function(){
     $('.carousel').slick({
         arrows: true,
-        dots:false,
+        dots:true,
         speed:1000,
-        fade:true,
+        fade:false,
         infinite:true,
         slidesToShow:1,
         slidesToScroll:1,
         asNavFor:'.carousel-nav'
     });
     $('.carousel-nav').slick({
-        slidesToShow:4,
+        centerMode: true,
+        centerPadding: '50px',
+        slidesToShow:3,
         slidesToScroll:1,
-        dots:true,
-        centerMode:true,
+        dots:false,
         focusOnSelect:true,
         arrows:false,
-        asNavFor: '.carousel'
+        asNavFor: '.carousel', 
     });
 });
