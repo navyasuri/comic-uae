@@ -2,13 +2,16 @@
     text-align: center;
 }
 
-html, body{
-    font-family: 'Indie Flower', cursive;
-}
 
-body {
-    background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+html, body {
+    background: rgba(250,243,170,1);
+    background: -moz-linear-gradient(left, rgba(250,243,170,1) 0%, rgba(255,208,158,1) 31%, rgba(247,184,116,1) 68%, rgba(207,203,214,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(250,243,170,1)), color-stop(31%, rgba(255,208,158,1)), color-stop(68%, rgba(247,184,116,1)), color-stop(100%, rgba(207,203,214,1)));
+    background: -webkit-linear-gradient(left, rgba(250,243,170,1) 0%, rgba(255,208,158,1) 31%, rgba(247,184,116,1) 68%, rgba(207,203,214,1) 100%);
+    background: -o-linear-gradient(left, rgba(250,243,170,1) 0%, rgba(255,208,158,1) 31%, rgba(247,184,116,1) 68%, rgba(207,203,214,1) 100%);
+    background: -ms-linear-gradient(left, rgba(250,243,170,1) 0%, rgba(255,208,158,1) 31%, rgba(247,184,116,1) 68%, rgba(207,203,214,1) 100%);
+    background: linear-gradient(to right, rgba(250,243,170,1) 0%, rgba(255,208,158,1) 31%, rgba(247,184,116,1) 68%, rgba(207,203,214,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faf3aa', endColorstr='#cfcbd6', GradientType=1 );
 
     margin: 0;
     padding: 0;
@@ -35,27 +38,6 @@ body {
     margin: 10px auto;
 }
 
-.right-corner {
-    position: absolute;
-    text-align: right;
-    margin left: 20px;
-    font-size: 20px;
-    right: 10px;
-    top: 0px;
-}
-.right-corner h2, .left-corner h2{
-    margin: 20px;
-}
-
-.left-corner {
-    position: absolute;
-    text-align: right;
-    margin left: 20px;
-    font-size: 20px;
-    left: 10px;
-    top: 0px;
-}
-
 a {
     text-decoration: none;
 }
@@ -63,4 +45,37 @@ a {
 a:link, a:visited{
     text-decoration: none;
     color: black;
+}
+
+.left-corner {
+    float: left;
+    margin-left: 35px;
+    margin-top: 8px;
+}
+
+
+.right-corner {
+    float: right;
+    margin-top: 23px;
+    margin-right: 35px;
+}
+
+
+button {
+    background-color: rgb(237, 212, 194);
+    border-radius: 20px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+
+#the-button-about {
+    font-size: 20px;
+    border-color: black;
+    padding: 9px 15px;
+}
+
+#the-button:hover, #the-button2:hover, #the-button-about:hover {
+    background-color: rgb(232, 156, 102); 
+    color: white;
 }
